@@ -1,0 +1,16 @@
+first:
+download anaconda
+second:
+set environemt varaibles: Scripts and python path
+third:
+make environemt for different version 
+    conda create -n nameiska python==3.12 -y
+activate environemt :
+       conda activate nameiska
+fourth:
+make requirments.txt
+and add all the packages like numpy,mypy,pandas etc
+fifth:
+install all package in requirments.txt
+    pip install -r requirments.txt
+
