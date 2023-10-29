@@ -14,3 +14,34 @@ fifth:
 install all package in requirments.txt
     pip install -r requirments.txt
 
+
+
+Second class:
+
+formating:two type f-string and jinja style
+
+f string: use for formating
+we dont need change variable type we direct put any value like string literals
+ card=f """
+ name:{name}
+ age :{age}
+ number {1+3+5}   //show 9 means they perform numeric function
+ """
+jinja style :use for formating(use double curely brackets)
+
+card="""
+name {{name}}
+
+"""
+percantage feature:
+
+card =f"""
+name:%s
+age:%d
+education:%s 
+""" % (name, age ,education)
+
+
+
+
+
